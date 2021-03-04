@@ -1,0 +1,25 @@
+$baseColor:#B16C8B;
+$baseOpacity:0.8;
+$HomeTagOpac:0.5;
+$baseRadius:5px;
+$deepColor:#40355D;
+::-webkit-scrollbar
+{
+	width: 16px;
+	height: 16px;
+	background-color: #F5F5F5;
+}
+ 
+/*定义滚动条轨道 内阴影+圆角*/
+::-webkit-scrollbar-track
+{
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: #F5F5F5;
+}
+ 
+/*定义滑块 内阴影+圆角*/
+::-webkit-scrollbar-thumb
+{
+  box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+   background-color:#1f5480
+}

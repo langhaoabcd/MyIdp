@@ -1,0 +1,15 @@
+{
+  "serveUrl":"http://localhost:5000",
+  "authConfig":{
+    "authority": "http://localhost:5000",
+    "client_id": "Wlmy.Ids4.Vue",
+    "redirect_uri": "http://localhost:8080/#/callback",
+    "scope": "openid",
+    "response_type": "code",
+    "automaticSilentRenew":true,
+    "post_logout_redirect_uri": "http://localhost:8080/#/main",
+    "silent_redirect_uri":"http://localhost:8080/#/refresh",
+    "response_mode":"query",
+    "filterProtocolClaims": true
+  }
+}
